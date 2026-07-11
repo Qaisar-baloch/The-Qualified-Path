@@ -1,0 +1,2016 @@
+{
+  "usat": {
+    "label": "USAT — 12 years / equivalent education",
+    "sharedInfo": "Part I: 75 MCQs, 100 minutes. Part II: essay writing, 40 minutes (same for every stream).",
+    "sharedPart1": [
+      {
+        "subject": "Verbal Reasoning",
+        "count": 20,
+        "breakdown": [
+          "Analogy — 5",
+          "Synonym/Antonym — 4",
+          "Sentence Completion — 6",
+          "Comprehension — 5"
+        ]
+      },
+      {
+        "subject": "Quantitative Reasoning",
+        "count": 25,
+        "breakdown": [
+          "Arithmetic — 6",
+          "Algebra and functions — 4",
+          "Geometry — 3",
+          "Equations — 3",
+          "Statistics — 3",
+          "Scenario-based/Mental Mathematics — 6"
+        ]
+      }
+    ],
+    "sharedPart2": [
+      {
+        "subject": "Argument-Based Essay (English or Urdu, 1 of 3 prompts)",
+        "count": "15 marks"
+      },
+      {
+        "subject": "Narrative-Based Essay (English or Urdu, 1 of 3 prompts)",
+        "count": "10 marks"
+      }
+    ],
+    "streams": [
+      {
+        "code": "USAT-E",
+        "name": "Pre-Engineering",
+        "subjects": [
+          {
+            "subject": "Physics",
+            "count": 10
+          },
+          {
+            "subject": "Chemistry",
+            "count": 10
+          },
+          {
+            "subject": "Mathematics",
+            "count": 10
+          }
+        ],
+        "samplePaper": {
+          "sections": [
+            {
+              "title": "Verbal Reasoning",
+              "passage": "A cruel lion ate many forest animals daily until they proposed a deal: one animal would come to him each day, so he wouldn't need to hunt. When it was the rabbit's turn, it arrived late, claiming to have been hiding from 'another lion' who called himself king. Enraged, the lion demanded to be shown this rival — the rabbit led him to a deep well, where the lion saw his own reflection, mistook it for the rival, and leapt in to attack it, never to return. The other animals were delighted by the rabbit's clever trick.",
+              "questions": [
+                {
+                  "num": 1,
+                  "text": "I imagine Sally was about _______ when I asked her to type a letter for me.",
+                  "options": {
+                    "A": "having left",
+                    "B": "to be leaving",
+                    "C": "to have left",
+                    "D": "to leave"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 2,
+                  "text": "It is widely believed ____ watching television too much isn't healthy for children.",
+                  "options": {
+                    "A": "that",
+                    "B": "when",
+                    "C": "where",
+                    "D": "which"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 3,
+                  "text": "UNIQUE : UNCOMMON ::",
+                  "options": {
+                    "A": "bitter : delicious",
+                    "B": "disgusting : unpleasant",
+                    "C": "pleasant : unkind",
+                    "D": "spicy : powerful"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 4,
+                  "text": "SUGGEST : DEMAND ::",
+                  "options": {
+                    "A": "deny : request",
+                    "B": "give : receive",
+                    "C": "question : answer",
+                    "D": "take : grab"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 5,
+                  "text": "Opposite of BIASED: The jury was BIASED and not ______.",
+                  "options": {
+                    "A": "educated",
+                    "B": "expert",
+                    "C": "neutral",
+                    "D": "qualified"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 6,
+                  "text": "Similar to CRUEL: In school he is known as CRUEL and often behaves ________.",
+                  "options": {
+                    "A": "badly",
+                    "B": "consistently",
+                    "C": "greedily",
+                    "D": "violently"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 7,
+                  "text": "(Passage) What is this story about?",
+                  "options": {
+                    "A": "How a clever rabbit tricked a cruel lion",
+                    "B": "How a rabbit pleased an angry lion",
+                    "C": "How rabbits learned to hide from lions",
+                    "D": "How to be safe when you hunt in the forest"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 8,
+                  "text": "(Passage) Why did the rabbit take the lion to the well?",
+                  "options": {
+                    "A": "So other animals could see them walking together",
+                    "B": "So the lion could attack the 'other' lion",
+                    "C": "So the lion could drink water",
+                    "D": "So the other animals would fear the rabbit"
+                  },
+                  "answer": "B"
+                }
+              ]
+            },
+            {
+              "title": "Quantitative Reasoning",
+              "questions": [
+                {
+                  "num": 9,
+                  "text": "Evaluate [31 + (-48)] + 2[-16 − (-120)] = ________.",
+                  "options": {
+                    "A": "-289",
+                    "B": "-191",
+                    "C": "191",
+                    "D": "289"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 10,
+                  "text": "A train moving at 60km/h crosses a pole in 9 seconds. Length of train?",
+                  "options": {
+                    "A": "25m",
+                    "B": "140m",
+                    "C": "150m",
+                    "D": "175m"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 11,
+                  "text": "The sum of roots of x² + 8x + 9 = 0 is ______.",
+                  "options": {
+                    "A": "-9",
+                    "B": "-8",
+                    "C": "8",
+                    "D": "9"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 12,
+                  "text": "Interior angles of a hexagon are in ratio 1:3:5:7:2:6. Smallest angle?",
+                  "options": {
+                    "A": "15°",
+                    "B": "30°",
+                    "C": "60°",
+                    "D": "90°"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 13,
+                  "text": "If B:A = 3:7 and A:C = 4:3, then A:B:C = _______.",
+                  "options": {
+                    "A": "28:12:21",
+                    "B": "12:21:28",
+                    "C": "12:28:21",
+                    "D": "21:28:12"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 14,
+                  "text": "If 4200 men have food for 32 days at 12 hectograms/person, how many men for 42 days at same rate?",
+                  "options": {
+                    "A": "2400",
+                    "B": "2800",
+                    "C": "3200",
+                    "D": "5512"
+                  },
+                  "answer": "C"
+                }
+              ]
+            },
+            {
+              "title": "Physics",
+              "questions": [
+                {
+                  "num": 15,
+                  "text": "Which law is also known as the Law of Inertia?",
+                  "options": {
+                    "A": "Newton's First Law",
+                    "B": "Newton's Law of Interference",
+                    "C": "Newton's Second Law",
+                    "D": "Newton's Third Law"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 16,
+                  "text": "Energy possessed by a spinning body about its axis at constant angular velocity is called ________ energy.",
+                  "options": {
+                    "A": "kinetic",
+                    "B": "potential",
+                    "C": "rotational kinetic",
+                    "D": "rotational potential"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 17,
+                  "text": "Which phenomenon is prominent when the wavelength of light is large compared to the obstacle size?",
+                  "options": {
+                    "A": "Diffraction of light",
+                    "B": "Interference of light",
+                    "C": "Reflection of light",
+                    "D": "Refraction of light"
+                  },
+                  "answer": "A"
+                }
+              ]
+            },
+            {
+              "title": "Chemistry",
+              "questions": [
+                {
+                  "num": 18,
+                  "text": "Conversion of gas into liquid requires ____ pressure and _______ temperature.",
+                  "options": {
+                    "A": "high … high",
+                    "B": "high … low",
+                    "C": "low … high",
+                    "D": "low … low"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 19,
+                  "text": "Which of the following is an ionic solid?",
+                  "options": {
+                    "A": "Mg",
+                    "B": "MgO",
+                    "C": "SiC",
+                    "D": "SiO2"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 20,
+                  "text": "The electronic configuration 1s² 2s² 2p⁶ belongs to _______.",
+                  "options": {
+                    "A": "fluorine",
+                    "B": "neon",
+                    "C": "nitrogen",
+                    "D": "oxygen"
+                  },
+                  "answer": "B"
+                }
+              ]
+            },
+            {
+              "title": "Mathematics",
+              "questions": [
+                {
+                  "num": 21,
+                  "text": "(cos θ + i sin θ)⁻¹ at θ = π/6 is _____________.",
+                  "options": {
+                    "A": "(√3 + i)/2",
+                    "B": "(1 − i√3)/2",
+                    "C": "(1 + i√3)/2",
+                    "D": "(-1 + i√3)/2"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 22,
+                  "text": "'All numbers are even' is a false statement, then the true statement is _______.",
+                  "options": {
+                    "A": "all numbers are not even",
+                    "B": "all numbers are odd",
+                    "C": "some numbers are not even",
+                    "D": "some numbers are odd"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 23,
+                  "text": "If aₙ₋₃ = 2n − 7, then aₙ = _______.",
+                  "options": {
+                    "A": "2n − 11",
+                    "B": "2n − 1",
+                    "C": "2n + 1",
+                    "D": "2n + 11"
+                  },
+                  "answer": "B"
+                }
+              ]
+            }
+          ],
+          "essays": {
+            "argumentative": [
+              "Does technology limit creativity?",
+              "Are standardized tests effective?",
+              "Can we reduce poverty in Pakistan?"
+            ],
+            "narrative": [
+              "A day at the Amusement Park.",
+              "The novel that touched me the most.",
+              "A time when you experienced something truly frightening."
+            ]
+          }
+        }
+      },
+      {
+        "code": "USAT-M",
+        "name": "Pre-Medical",
+        "subjects": [
+          {
+            "subject": "Physics",
+            "count": 8
+          },
+          {
+            "subject": "Chemistry",
+            "count": 8
+          },
+          {
+            "subject": "Biology",
+            "count": 14
+          }
+        ],
+        "samplePaper": {
+          "sections": [
+            {
+              "title": "Verbal Reasoning",
+              "passage": "Pakistan enjoys four seasons, each with its own gifts. Spring, the 'king of all seasons,' runs late February to May, bringing new leaves and blossoms. Summer (June–August) is long and hot on the plains, milder in hilly areas, with long days and short nights. Autumn (September–December), also called 'Fall,' is dry and windy, with leaves changing colour. Winter is the coldest season, bringing snowfall to parts of the country and long nights.",
+              "questions": [
+                {
+                  "num": 1,
+                  "text": "She usually is a careful driver but yesterday she had a/an ______.",
+                  "options": {
+                    "A": "accident",
+                    "B": "event",
+                    "C": "happening",
+                    "D": "incident"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 2,
+                  "text": "She was fishing from the river ______.",
+                  "options": {
+                    "A": "bank",
+                    "B": "basin",
+                    "C": "cliff",
+                    "D": "valley"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 3,
+                  "text": "RAIN : DRIZZLE ::",
+                  "options": {
+                    "A": "hop : shuffle",
+                    "B": "juggle : bounce",
+                    "C": "run : jog",
+                    "D": "walk : path"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 4,
+                  "text": "ANKLE : FOOT ::",
+                  "options": {
+                    "A": "eye : retina",
+                    "B": "leg : calf",
+                    "C": "tooth : tongue",
+                    "D": "wrist : hand"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 5,
+                  "text": "Opposite of UNFAMILIAR: If you are UNFAMILIAR to something, you are not ______ it.",
+                  "options": {
+                    "A": "angry about",
+                    "B": "happy with",
+                    "C": "sure about",
+                    "D": "used to"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 6,
+                  "text": "Similar to SUPERCILIOUS: Your SUPERCILIOUS ideals won't work. You must _______ your standards.",
+                  "options": {
+                    "A": "change",
+                    "B": "define",
+                    "C": "give up",
+                    "D": "lower"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 7,
+                  "text": "(Passage) Which season comes between summer and winter?",
+                  "options": {
+                    "A": "Autumn",
+                    "B": "Monsoon",
+                    "C": "Spring",
+                    "D": "Winter"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 8,
+                  "text": "(Passage) Which season is called the king of all seasons?",
+                  "options": {
+                    "A": "Autumn",
+                    "B": "Spring",
+                    "C": "Summer",
+                    "D": "Winter"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 9,
+                  "text": "(Passage) In which season does snowfall come?",
+                  "options": {
+                    "A": "Autumn",
+                    "B": "Spring",
+                    "C": "Summer",
+                    "D": "Winter"
+                  },
+                  "answer": "D"
+                }
+              ]
+            },
+            {
+              "title": "Quantitative Reasoning",
+              "questions": [
+                {
+                  "num": 10,
+                  "text": "38 − [36 − 2{5 + 7 − 6}] ÷ 3 = ______.",
+                  "options": {
+                    "A": "8",
+                    "B": "30",
+                    "C": "46",
+                    "D": "80"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 11,
+                  "text": "Ahmed has 95/3 litres of paint. After using 59/12 in room and 37/12 in kitchen, how much is left?",
+                  "options": {
+                    "A": "7/12 litres",
+                    "B": "5/3 litres",
+                    "C": "71/6 litres",
+                    "D": "71/3 litres"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 12,
+                  "text": "Sum of roots of 9x² + 21x − 8 = 0 is _________.",
+                  "options": {
+                    "A": "-7/3",
+                    "B": "-8/9",
+                    "C": "8/9",
+                    "D": "7/3"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 13,
+                  "text": "What is the sum of exterior angles of a triangle?",
+                  "options": {
+                    "A": "180°",
+                    "B": "270°",
+                    "C": "360°",
+                    "D": "450°"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 14,
+                  "text": "The median in the data 2,3,4,5,6,8,5,2,3 is ______.",
+                  "options": {
+                    "A": "3",
+                    "B": "4",
+                    "C": "4.5",
+                    "D": "6"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 15,
+                  "text": "Cost of a book is Rs. 720 with a profit of 5%. Sale price?",
+                  "options": {
+                    "A": "Rs. 700",
+                    "B": "Rs. 756",
+                    "C": "Rs. 766",
+                    "D": "Rs. 775"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 16,
+                  "text": "What is the value of m in the ratio 14 : m − 3 = 7 : 4?",
+                  "options": {
+                    "A": "-11",
+                    "B": "3",
+                    "C": "8",
+                    "D": "11"
+                  },
+                  "answer": "D"
+                }
+              ]
+            },
+            {
+              "title": "Physics",
+              "questions": [
+                {
+                  "num": 17,
+                  "text": "Which law states 'action and reaction are equal in magnitude but opposite in direction'?",
+                  "options": {
+                    "A": "Newton's First Law",
+                    "B": "Newton's Law of Interference",
+                    "C": "Newton's Second Law",
+                    "D": "Newton's Third Law"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 18,
+                  "text": "If no external torque acts on a system, total angular momentum stays constant — this is the base of ________________.",
+                  "options": {
+                    "A": "Law of conservation of angular momentum",
+                    "B": "Law of conservation of energy",
+                    "C": "Law of conservation of mass",
+                    "D": "Law of conservation of momentum"
+                  },
+                  "answer": "A"
+                }
+              ]
+            },
+            {
+              "title": "Chemistry",
+              "questions": [
+                {
+                  "num": 19,
+                  "text": "Conversion of gas into liquid requires high pressure and _______.",
+                  "options": {
+                    "A": "high temperature",
+                    "B": "high volume",
+                    "C": "low temperature",
+                    "D": "low volume"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 20,
+                  "text": "Which of the following is a metallic solid?",
+                  "options": {
+                    "A": "Mg",
+                    "B": "MgO",
+                    "C": "SiC",
+                    "D": "SiO2"
+                  },
+                  "answer": "A"
+                }
+              ]
+            },
+            {
+              "title": "Biology",
+              "questions": [
+                {
+                  "num": 21,
+                  "text": "Photolysis of water during photosynthesis occurs at _______.",
+                  "options": {
+                    "A": "cytochrome bf complex",
+                    "B": "photosystem I",
+                    "C": "photosystem II",
+                    "D": "stroma"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 22,
+                  "text": "How many net ATP molecules form at the end of glycolysis from one glucose molecule?",
+                  "options": {
+                    "A": "1",
+                    "B": "2",
+                    "C": "3",
+                    "D": "4"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 23,
+                  "text": "Which plant has tiny leaves with tentacles bearing glands to trap insects?",
+                  "options": {
+                    "A": "Cuscuta",
+                    "B": "Pitcher plant",
+                    "C": "Sundew",
+                    "D": "Venus fly trap"
+                  },
+                  "answer": "C"
+                }
+              ]
+            }
+          ],
+          "essays": {
+            "argumentative": [
+              "Does technology limit creativity?",
+              "Are standardized tests effective?",
+              "Can we reduce poverty in Pakistan?"
+            ],
+            "narrative": [
+              "A day at the Amusement Park.",
+              "The novel that touched me the most.",
+              "A time when you experienced something truly frightening."
+            ]
+          }
+        }
+      },
+      {
+        "code": "USAT-A",
+        "name": "Arts & Humanities",
+        "subjects": [
+          {
+            "subject": "Islamiat/Ethics",
+            "count": 10
+          },
+          {
+            "subject": "Pakistan Studies",
+            "count": 10
+          },
+          {
+            "subject": "General Knowledge",
+            "count": 10
+          }
+        ],
+        "samplePaper": {
+          "sections": [
+            {
+              "title": "Verbal Reasoning",
+              "questions": [
+                {
+                  "num": 1,
+                  "text": "Air passengers usually _______ much luggage.",
+                  "options": {
+                    "A": "don't have",
+                    "B": "have",
+                    "C": "have not",
+                    "D": "not have"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 2,
+                  "text": "Someone must deal with the situation _____ the spot.",
+                  "options": {
+                    "A": "beside",
+                    "B": "by",
+                    "C": "of",
+                    "D": "on"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 3,
+                  "text": "SLEEP : AWAKE ::",
+                  "options": {
+                    "A": "expect : hope",
+                    "B": "rise : fall",
+                    "C": "waste : left-over",
+                    "D": "watch : see"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 4,
+                  "text": "HEAD : HAIR ::",
+                  "options": {
+                    "A": "brain : mind",
+                    "B": "eye : see",
+                    "C": "fingers : nails",
+                    "D": "leg : calf"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 5,
+                  "text": "Opposite of SHREWD: He is a SHREWD fellow and not ______.",
+                  "options": {
+                    "A": "cooperative",
+                    "B": "cruel",
+                    "C": "dull",
+                    "D": "honest"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 6,
+                  "text": "Similar in meaning: If something DEVELOPS it ______.",
+                  "options": {
+                    "A": "falls",
+                    "B": "grows",
+                    "C": "performs",
+                    "D": "stops"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 7,
+                  "text": "(Passage-based) The hunter-gatherer societies had ________ economy.",
+                  "options": {
+                    "A": "global",
+                    "B": "industrial",
+                    "C": "simple",
+                    "D": "traditional"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 8,
+                  "text": "(Passage-based) The societies formed soon after the Agricultural Revolution had economies similar to those of ________.",
+                  "options": {
+                    "A": "hunter-gatherers",
+                    "B": "industrial age",
+                    "C": "kingdoms",
+                    "D": "villages"
+                  },
+                  "answer": "A"
+                }
+              ],
+              "passage": "Primitive human beings who were hunter-gatherers had no money. Each band hunted, gathered and manufactured almost everything it required, sharing goods and services through an economy of favors and obligations, occasionally supplemented by simple barter. Little of this changed with the Agricultural Revolution — most people still lived in small, self-sufficient villages. The rise of cities and kingdoms, along with improved transport, finally brought full-time specialization: professional shoemakers, doctors, carpenters, priests, soldiers and lawyers, trading goods between settlements suited to different climates and skills."
+            },
+            {
+              "title": "Quantitative Reasoning",
+              "questions": [
+                {
+                  "num": 9,
+                  "text": "Which of the following is a whole number?",
+                  "options": {
+                    "A": "-10",
+                    "B": "-3.5",
+                    "C": "0",
+                    "D": "5/7"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 10,
+                  "text": "What is the angle between the hands of a clock at 6 O'clock?",
+                  "options": {
+                    "A": "90°",
+                    "B": "120°",
+                    "C": "150°",
+                    "D": "180°"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 11,
+                  "text": "What is the volume of a sphere whose radius is 10.5cm? (π = 22/7)",
+                  "options": {
+                    "A": "4651 cm³",
+                    "B": "4851 cm³",
+                    "C": "5055 cm³",
+                    "D": "38808 cm³"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 12,
+                  "text": "The linear equation 3x = 10 represents a _______ line.",
+                  "options": {
+                    "A": "horizontal",
+                    "B": "oblique",
+                    "C": "vertical",
+                    "D": "y-axis"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 13,
+                  "text": "Cost of 2 hens + 3 goats = Rs. 47,000. Cost of 5 hens + 1 goat = Rs. 20,000. What is the cost of a hen?",
+                  "options": {
+                    "A": "Rs. 1,000",
+                    "B": "Rs. 15,000",
+                    "C": "Rs. 16,000",
+                    "D": "Rs. 20,000"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 14,
+                  "text": "Two dice are rolled. What is the probability of getting the same face on top?",
+                  "options": {
+                    "A": "5/36",
+                    "B": "1/6",
+                    "C": "7/36",
+                    "D": "1"
+                  },
+                  "answer": "B"
+                }
+              ]
+            },
+            {
+              "title": "Islamiat / Ethics",
+              "questions": [
+                {
+                  "num": 15,
+                  "text": "Shab-e-Qadar (Night of Value) falls in the month of _______.",
+                  "options": {
+                    "A": "Rabi-ul-Awal",
+                    "B": "Rajab",
+                    "C": "Ramzan",
+                    "D": "Shaban"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 16,
+                  "text": "Hazrat Muhammad (PBUH) declared ________ a key to paradise.",
+                  "options": {
+                    "A": "fasting",
+                    "B": "hajj",
+                    "C": "jihad",
+                    "D": "salat"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 17,
+                  "text": "The foremost right of parents is to _________.",
+                  "options": {
+                    "A": "give them proper time",
+                    "B": "keep them smiling",
+                    "C": "support them",
+                    "D": "treat them kindly"
+                  },
+                  "answer": "D"
+                }
+              ]
+            },
+            {
+              "title": "Pakistan Studies",
+              "questions": [
+                {
+                  "num": 18,
+                  "text": "Quaid-e-Azam presented his fourteen points in response to _________.",
+                  "options": {
+                    "A": "Khilafat Movement",
+                    "B": "Lucknow Pact",
+                    "C": "Nehru Report",
+                    "D": "Simon Commission"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 19,
+                  "text": "Geographically Pakistan is located in _________.",
+                  "options": {
+                    "A": "Central Asia",
+                    "B": "Middle East",
+                    "C": "South Asia",
+                    "D": "Southeast Asia"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 20,
+                  "text": "The basis of our national unity is __________.",
+                  "options": {
+                    "A": "All India Muslim League",
+                    "B": "Geography",
+                    "C": "History",
+                    "D": "Islam"
+                  },
+                  "answer": "D"
+                }
+              ]
+            },
+            {
+              "title": "General Knowledge",
+              "questions": [
+                {
+                  "num": 21,
+                  "text": "In the human body, blood and wastes are filtered by _______.",
+                  "options": {
+                    "A": "stomach",
+                    "B": "heart",
+                    "C": "kidneys",
+                    "D": "lungs"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 22,
+                  "text": "Capital city of China is __________.",
+                  "options": {
+                    "A": "Beijing",
+                    "B": "Shanghai",
+                    "C": "Tianjin",
+                    "D": "Wuhan"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 23,
+                  "text": "Leo Messi is a professional ________, belongs to Argentina.",
+                  "options": {
+                    "A": "boxer",
+                    "B": "cricketer",
+                    "C": "footballer",
+                    "D": "swimmer"
+                  },
+                  "answer": "C"
+                }
+              ]
+            }
+          ],
+          "essays": {
+            "argumentative": [
+              "Does technology limit creativity?",
+              "Are standardized tests effective?",
+              "Can we reduce poverty in Pakistan?"
+            ],
+            "narrative": [
+              "A day at the Amusement Park.",
+              "The novel that touched me the most.",
+              "A time when you experienced something truly frightening."
+            ]
+          }
+        }
+      },
+      {
+        "code": "USAT-CS",
+        "name": "Computer Science",
+        "subjects": [
+          {
+            "subject": "Physics",
+            "count": 8
+          },
+          {
+            "subject": "Computer Science",
+            "count": 14
+          },
+          {
+            "subject": "Mathematics",
+            "count": 8
+          }
+        ],
+        "samplePaper": {
+          "sections": [
+            {
+              "title": "Verbal Reasoning",
+              "passage": "Syed Ahmed went to England on a dual mission — to learn and to teach. His learning mission succeeded in a year and five months, giving him insight into what made the British rulers of a vast empire. His teaching mission failed: the British had no interest in learning about Islam, being preoccupied instead with science, social reform, and individual liberty. So he returned home determined to teach his own countrymen everything he had learned — and everything he'd hoped, but failed, to teach the British.",
+              "questions": [
+                {
+                  "num": 1,
+                  "text": "Naima met Salma ________ the afternoon.",
+                  "options": {
+                    "A": "after",
+                    "B": "at",
+                    "C": "before",
+                    "D": "in"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 2,
+                  "text": "The Queen fell _______ ill and all hopes of her recovery vanished.",
+                  "options": {
+                    "A": "easily",
+                    "B": "hardly",
+                    "C": "scarcely",
+                    "D": "seriously"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 3,
+                  "text": "BELL : RING ::",
+                  "options": {
+                    "A": "clock : watch",
+                    "B": "guitar : music",
+                    "C": "paper : pencil",
+                    "D": "wind : whistle"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 4,
+                  "text": "HELP : HINDER ::",
+                  "options": {
+                    "A": "hurry : delay",
+                    "B": "smile : laugh",
+                    "C": "steal : thief",
+                    "D": "travel : journey"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 5,
+                  "text": "Opposite of LOAFER: A LOAFER is one who does not like to ______.",
+                  "options": {
+                    "A": "shake",
+                    "B": "sing",
+                    "C": "smile",
+                    "D": "work"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 6,
+                  "text": "Similar to MIX-UP: If information gets MIX-UP, it becomes _______.",
+                  "options": {
+                    "A": "confusing",
+                    "B": "dangerous",
+                    "C": "old",
+                    "D": "sensitive"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 7,
+                  "text": "(Passage) The type of this paragraph is ____________.",
+                  "options": {
+                    "A": "descriptive",
+                    "B": "expository",
+                    "C": "narrative",
+                    "D": "science"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 8,
+                  "text": "(Passage) The paragraph revolves around ________________.",
+                  "options": {
+                    "A": "Syed Ahmed's dual mission",
+                    "B": "Syed Ahmed's failure to teach",
+                    "C": "Syed Ahmed's help for Muslims",
+                    "D": "Syed Ahmed's visit to England"
+                  },
+                  "answer": "A"
+                }
+              ]
+            },
+            {
+              "title": "Quantitative Reasoning",
+              "questions": [
+                {
+                  "num": 9,
+                  "text": "Evaluate [-30 + 47] − 2[15 + (-119)] = ________.",
+                  "options": {
+                    "A": "-289",
+                    "B": "-191",
+                    "C": "191",
+                    "D": "225"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 10,
+                  "text": "Which of the following is a binary operation?",
+                  "options": {
+                    "A": "Intersection",
+                    "B": "Square",
+                    "C": "Square root",
+                    "D": "Transpose"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 11,
+                  "text": "A train moving at 30km/h crosses a pole in 21 seconds. Length of train?",
+                  "options": {
+                    "A": "25m",
+                    "B": "150m",
+                    "C": "175m",
+                    "D": "630m"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 12,
+                  "text": "If f(x) = (x² − 3) and f(x) = 1, value of x is _______.",
+                  "options": {
+                    "A": "-3, 2",
+                    "B": "2, -3",
+                    "C": "-2, 2",
+                    "D": "4, -2"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 13,
+                  "text": "8 teams play a round robin, then 2 semifinals and 1 final. Total matches played?",
+                  "options": {
+                    "A": "25",
+                    "B": "28",
+                    "C": "31",
+                    "D": "34"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 14,
+                  "text": "The angle between the hands of a clock at 4:30 is _______.",
+                  "options": {
+                    "A": "30°",
+                    "B": "35.5°",
+                    "C": "37.5°",
+                    "D": "40°"
+                  },
+                  "answer": "D"
+                }
+              ]
+            },
+            {
+              "title": "Physics",
+              "questions": [
+                {
+                  "num": 15,
+                  "text": "The mathematical formula F = ma belongs to ________.",
+                  "options": {
+                    "A": "Newton's First Law",
+                    "B": "Newton's Second Law",
+                    "C": "Newton's Third Law",
+                    "D": "Newton's Law of Interference"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 16,
+                  "text": "An oil film floating on water shows a powerful color pattern due to ________.",
+                  "options": {
+                    "A": "Diffraction of light",
+                    "B": "Interference of light",
+                    "C": "Reflection of light",
+                    "D": "Refraction of light"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 17,
+                  "text": "The maximum value reached by voltage/current in one AC cycle is the ________.",
+                  "options": {
+                    "A": "Instantaneous value",
+                    "B": "Peak to peak value",
+                    "C": "Peak value",
+                    "D": "Root mean square value"
+                  },
+                  "answer": "A"
+                }
+              ]
+            },
+            {
+              "title": "Computer Science",
+              "questions": [
+                {
+                  "num": 18,
+                  "text": "A computer register is a _________ in computer operation.",
+                  "options": {
+                    "A": "memory type",
+                    "B": "network device",
+                    "C": "physical device",
+                    "D": "program type"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 19,
+                  "text": "'Bootstrap' specifically helps in the _______ process of a computer.",
+                  "options": {
+                    "A": "arithmetic",
+                    "B": "backup",
+                    "C": "networking",
+                    "D": "turn-on"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 20,
+                  "text": "Which is generally NOT a network topology?",
+                  "options": {
+                    "A": "mesh",
+                    "B": "ring",
+                    "C": "stage",
+                    "D": "star"
+                  },
+                  "answer": "C"
+                }
+              ]
+            },
+            {
+              "title": "Mathematics",
+              "questions": [
+                {
+                  "num": 21,
+                  "text": "The sum of the series 2 + 2/3 + 2/9 + … is _____.",
+                  "options": {
+                    "A": "2",
+                    "B": "3",
+                    "C": "3.4",
+                    "D": "3.5"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 22,
+                  "text": "What is the rank of the matrix [[1,2,3],[2,4,6],[5,10,15]]?",
+                  "options": {
+                    "A": "1",
+                    "B": "2",
+                    "C": "3",
+                    "D": "0"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 23,
+                  "text": "Solution of sin2x = 1 is ______.",
+                  "options": {
+                    "A": "π/4, 3π/4",
+                    "B": "3π/4, π/2",
+                    "C": "π/4, 3π/2",
+                    "D": "3π/2, π/2"
+                  },
+                  "answer": "D"
+                }
+              ]
+            }
+          ],
+          "essays": {
+            "argumentative": [
+              "Does technology limit creativity?",
+              "Are standardized tests effective?",
+              "Can we reduce poverty in Pakistan?"
+            ],
+            "narrative": [
+              "A day at the Amusement Park.",
+              "The novel that touched me the most.",
+              "A time when you experienced something truly frightening."
+            ]
+          }
+        }
+      },
+      {
+        "code": "USAT-GS",
+        "name": "General Science",
+        "subjects": [
+          {
+            "subject": "Mathematics",
+            "count": 10
+          },
+          {
+            "subject": "Statistics",
+            "count": 10
+          },
+          {
+            "subject": "Economics",
+            "count": 10
+          }
+        ],
+        "samplePaper": {
+          "sections": [
+            {
+              "title": "Verbal Reasoning",
+              "passage": "Everyone once believed Earth was at the centre of the universe. Copernicus realized this didn't match astronomical observations, and worked out that the Sun was at the centre, with Earth orbiting it once a year while rotating every 24 hours. He believed planetary orbits were perfect circles — fifty years later, Kepler used Tycho Brahe's precise measurements to show they are not.",
+              "questions": [
+                {
+                  "num": 1,
+                  "text": "He lost his ________ when the policeman stopped him.",
+                  "options": {
+                    "A": "character",
+                    "B": "language",
+                    "C": "pride",
+                    "D": "temper"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 2,
+                  "text": "Open your workbook _______ page 7.",
+                  "options": {
+                    "A": "at",
+                    "B": "in",
+                    "C": "on",
+                    "D": "through"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 3,
+                  "text": "PETAL : FLOWER ::",
+                  "options": {
+                    "A": "base : ball",
+                    "B": "puppy : dog",
+                    "C": "sandals : shoes",
+                    "D": "tire : bicycle"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 4,
+                  "text": "BINDING : BOOK ::",
+                  "options": {
+                    "A": "artist : carpenter",
+                    "B": "display : museum",
+                    "C": "frame : picture",
+                    "D": "nail : hammer"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 5,
+                  "text": "Opposite of HORRIFIC: If something is HORRIFIC it is not ________.",
+                  "options": {
+                    "A": "complete",
+                    "B": "frightening",
+                    "C": "important",
+                    "D": "pleasant"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 6,
+                  "text": "Similar to DARING: If you are DARING, you are ________.",
+                  "options": {
+                    "A": "careful",
+                    "B": "courageous",
+                    "C": "powerful",
+                    "D": "wealthy"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 7,
+                  "text": "(Passage) Copernicus' belief that the Sun was at the centre was based on __________.",
+                  "options": {
+                    "A": "common sense",
+                    "B": "his astronomical observations",
+                    "C": "mathematical calculations",
+                    "D": "observations of other astronomers"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 8,
+                  "text": "(Passage) The belief that Earth was at the centre was held at that time by __________.",
+                  "options": {
+                    "A": "Copernicus",
+                    "B": "everybody",
+                    "C": "the uneducated persons",
+                    "D": "nobody"
+                  },
+                  "answer": "B"
+                }
+              ]
+            },
+            {
+              "title": "Quantitative Reasoning",
+              "questions": [
+                {
+                  "num": 9,
+                  "text": "Evaluate 2{[59 + (-42)] + [-75 − (-120)]} = ________.",
+                  "options": {
+                    "A": "-124",
+                    "B": "-62",
+                    "C": "62",
+                    "D": "124"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 10,
+                  "text": "A train moves at 90km/h. Distance covered in 9 minutes?",
+                  "options": {
+                    "A": "12km",
+                    "B": "13km",
+                    "C": "13.5km",
+                    "D": "135km"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 11,
+                  "text": "If f(x) = (x + 3)² and f(x) = 16, then x = ______.",
+                  "options": {
+                    "A": "-1, -7",
+                    "B": "1, -7",
+                    "C": "-1, 7",
+                    "D": "7, 1"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 12,
+                  "text": "In 24 hours, the hands of a clock meet each other ________ times.",
+                  "options": {
+                    "A": "20",
+                    "B": "21",
+                    "C": "22",
+                    "D": "24"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 13,
+                  "text": "Cos 57° = _______.",
+                  "options": {
+                    "A": "Sec 33°",
+                    "B": "Sin 33°",
+                    "C": "Sin 57°",
+                    "D": "Tan 33°"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 14,
+                  "text": "If 420 men have food for 32 days, how many men remain so the same food lasts 42 days?",
+                  "options": {
+                    "A": "50",
+                    "B": "100",
+                    "C": "131",
+                    "D": "320"
+                  },
+                  "answer": "D"
+                }
+              ]
+            },
+            {
+              "title": "Mathematics",
+              "questions": [
+                {
+                  "num": 15,
+                  "text": "Absolute value of 2 + 3i is _____.",
+                  "options": {
+                    "A": "2",
+                    "B": "3",
+                    "C": "√5",
+                    "D": "√13"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 16,
+                  "text": "A − B = _______ (set notation).",
+                  "options": {
+                    "A": "A′∩B",
+                    "B": "A∪B",
+                    "C": "A∩B",
+                    "D": "A∩B′"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 17,
+                  "text": "The value of dy/dx in x²y² − 3 = 0 is _______.",
+                  "options": {
+                    "A": "x/y",
+                    "B": "-x/y",
+                    "C": "y/x",
+                    "D": "-y/x"
+                  },
+                  "answer": "D"
+                }
+              ]
+            },
+            {
+              "title": "Statistics",
+              "questions": [
+                {
+                  "num": 18,
+                  "text": "1² + 2² + 3² + … + n² = ________.",
+                  "options": {
+                    "A": "n²",
+                    "B": "(2n+1)(n+1)/6",
+                    "C": "n(n+1)/2",
+                    "D": "n(2n+1)(n+1)/6"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 19,
+                  "text": "If variance of a data is 100 and its mean is 50, coefficient of variation is _______.",
+                  "options": {
+                    "A": "20%",
+                    "B": "50%",
+                    "C": "100%",
+                    "D": "200%"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 20,
+                  "text": "Prices and quantities both are used for computing ______.",
+                  "options": {
+                    "A": "chain relatives",
+                    "B": "link relatives",
+                    "C": "price relatives",
+                    "D": "weighted index numbers"
+                  },
+                  "answer": "D"
+                }
+              ]
+            },
+            {
+              "title": "Economics",
+              "questions": [
+                {
+                  "num": 21,
+                  "text": "The production cost which changes directly with output level is called _________ cost.",
+                  "options": {
+                    "A": "fixed",
+                    "B": "historical",
+                    "C": "indirect",
+                    "D": "variable"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 22,
+                  "text": "The change in total product from increasing one unit of input is called _______ product.",
+                  "options": {
+                    "A": "average",
+                    "B": "fixed",
+                    "C": "marginal",
+                    "D": "total"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 23,
+                  "text": "The term for paying for goods at the time of delivery is _______.",
+                  "options": {
+                    "A": "Barter",
+                    "B": "Cash on delivery",
+                    "C": "Give and take",
+                    "D": "Payment on delivery"
+                  },
+                  "answer": "B"
+                }
+              ]
+            }
+          ],
+          "essays": {
+            "argumentative": [
+              "Does technology limit creativity?",
+              "Are standardized tests effective?",
+              "Can we reduce poverty in Pakistan?"
+            ],
+            "narrative": [
+              "A day at the Amusement Park.",
+              "The novel that touched me the most.",
+              "A time when you experienced something truly frightening."
+            ]
+          }
+        }
+      },
+      {
+        "code": "USAT-COM",
+        "name": "Commerce",
+        "subjects": [
+          {
+            "subject": "Accounting",
+            "count": 10
+          },
+          {
+            "subject": "Commerce",
+            "count": 10
+          },
+          {
+            "subject": "Economics",
+            "count": 10
+          }
+        ],
+        "samplePaper": {
+          "sections": [
+            {
+              "title": "Verbal Reasoning",
+              "passage": "Empires generate huge amounts of information — laws, tax accounts, military inventories, calendars of festivals. For millions of years, humans stored information only in their brains, which is a poor fit for empire-sized databases for three reasons: limited capacity even for trained memory experts; the information dies with the person, degrading further each time it's passed on; and the brain evolved to store botanical, zoological, and social information rather than numbers, since hunter-gatherers never needed to track large numerical data.",
+              "questions": [
+                {
+                  "num": 1,
+                  "text": "I _______ him to pray to God.",
+                  "options": {
+                    "A": "asked",
+                    "B": "demanded",
+                    "C": "said",
+                    "D": "told"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 2,
+                  "text": "The final research paper is ________ the library.",
+                  "options": {
+                    "A": "at",
+                    "B": "by",
+                    "C": "in",
+                    "D": "with"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 3,
+                  "text": "LIVELY : DULL ::",
+                  "options": {
+                    "A": "emotional : sensitive",
+                    "B": "employed : jobless",
+                    "C": "flower : bud",
+                    "D": "happy : joy"
+                  },
+                  "answer": "B"
+                },
+                {
+                  "num": 4,
+                  "text": "MAD : INSANE ::",
+                  "options": {
+                    "A": "brave : timid",
+                    "B": "healthy : ill",
+                    "C": "red : green",
+                    "D": "slim : thin"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 5,
+                  "text": "Opposite of RECKLESS: A RECKLESS is not a ________ person.",
+                  "options": {
+                    "A": "confident",
+                    "B": "happy",
+                    "C": "responsible",
+                    "D": "wicked"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 6,
+                  "text": "Similar to ANGRY: The news made the public ANGRY and ______ them up.",
+                  "options": {
+                    "A": "annoyed",
+                    "B": "give",
+                    "C": "keep",
+                    "D": "put"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 7,
+                  "text": "(Passage) The central idea of the paragraph is _____________.",
+                  "options": {
+                    "A": "as empires grow, they need more human beings",
+                    "B": "empires are complex structures",
+                    "C": "human brain has limited capacity for storing information",
+                    "D": "human brains if used properly can serve great empires"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 8,
+                  "text": "(Passage) The 'topography' of a province tells about its _______.",
+                  "options": {
+                    "A": "government",
+                    "B": "history",
+                    "C": "land",
+                    "D": "people"
+                  },
+                  "answer": "C"
+                }
+              ]
+            },
+            {
+              "title": "Quantitative Reasoning",
+              "questions": [
+                {
+                  "num": 9,
+                  "text": "28 − [36 − 2{5 + 7 − 6}] ÷ 4 = ______.",
+                  "options": {
+                    "A": "-4",
+                    "B": "1",
+                    "C": "22",
+                    "D": "34"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 10,
+                  "text": "Factors of x² − 6x + 5 = 0 are _______.",
+                  "options": {
+                    "A": "-1, -5",
+                    "B": "1, -5",
+                    "C": "-1, 5",
+                    "D": "1, 5"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 11,
+                  "text": "Find the largest angle of an octagon if its angles are in ratio 2:3:5:6:7:3:2:8.",
+                  "options": {
+                    "A": "30°",
+                    "B": "200°",
+                    "C": "240°",
+                    "D": "320°"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 12,
+                  "text": "Cost of 2 bats + 3 balls = Rs. 1000. Cost of 5 bats + 1 ball = Rs. 1850. Find the cost of 1 ball.",
+                  "options": {
+                    "A": "Rs. 100",
+                    "B": "Rs. 150",
+                    "C": "Rs. 350",
+                    "D": "Rs. 450"
+                  },
+                  "answer": "A"
+                },
+                {
+                  "num": 13,
+                  "text": "The mode in the data 2,3,4,4,5,6,8,8,6,5,2,3,5,8,8 is ________.",
+                  "options": {
+                    "A": "2",
+                    "B": "5",
+                    "C": "8",
+                    "D": "No mode"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 14,
+                  "text": "The sale price of an article is Rs. 1045 with a loss of 5%. What is the cost price?",
+                  "options": {
+                    "A": "Rs. 992.75",
+                    "B": "Rs. 1097.25",
+                    "C": "Rs. 1100",
+                    "D": "Rs. 1150"
+                  },
+                  "answer": "C"
+                }
+              ]
+            },
+            {
+              "title": "Accounting",
+              "questions": [
+                {
+                  "num": 15,
+                  "text": "Things which have been purchased for resale purpose are called ______.",
+                  "options": {
+                    "A": "capital",
+                    "B": "debentures",
+                    "C": "goods",
+                    "D": "liabilities"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 16,
+                  "text": "Which of the following equations is correct?",
+                  "options": {
+                    "A": "Assets + Capital = Liabilities",
+                    "B": "Assets + Liabilities = Capital",
+                    "C": "Assets = Liabilities − Capital",
+                    "D": "Assets = Liabilities + Capital"
+                  },
+                  "answer": "D"
+                },
+                {
+                  "num": 17,
+                  "text": "Cash sales are recorded in which of the following books?",
+                  "options": {
+                    "A": "Cash Book",
+                    "B": "General Journal",
+                    "C": "Sales Day Book",
+                    "D": "Sales Returns Day Book"
+                  },
+                  "answer": "A"
+                }
+              ]
+            },
+            {
+              "title": "Commerce",
+              "questions": [
+                {
+                  "num": 18,
+                  "text": "That part of business connected with production of goods and services is called ________.",
+                  "options": {
+                    "A": "commerce",
+                    "B": "employment",
+                    "C": "industry",
+                    "D": "trade"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 19,
+                  "text": "Selling of goods in small quantities to ultimate consumers is called _________ trade.",
+                  "options": {
+                    "A": "entrepot",
+                    "B": "foreign",
+                    "C": "retail",
+                    "D": "wholesale"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 20,
+                  "text": "Which of the following is NOT a content of a partnership deed?",
+                  "options": {
+                    "A": "Name of Business",
+                    "B": "Name of Firm",
+                    "C": "Names of Directors",
+                    "D": "Names of Partners"
+                  },
+                  "answer": "C"
+                }
+              ]
+            },
+            {
+              "title": "Economics",
+              "questions": [
+                {
+                  "num": 21,
+                  "text": "Which branch of economics analyzes small units of the economy?",
+                  "options": {
+                    "A": "Applied Economics",
+                    "B": "Macroeconomics",
+                    "C": "Microeconomics",
+                    "D": "Welfare Economics"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 22,
+                  "text": "The benefit given up to obtain something is called ________ cost.",
+                  "options": {
+                    "A": "accounting",
+                    "B": "historical",
+                    "C": "opportunity",
+                    "D": "sunk"
+                  },
+                  "answer": "C"
+                },
+                {
+                  "num": 23,
+                  "text": "The ability of a good to satisfy human want is called _________.",
+                  "options": {
+                    "A": "durability",
+                    "B": "scarcity",
+                    "C": "usefulness",
+                    "D": "utility"
+                  },
+                  "answer": "D"
+                }
+              ]
+            }
+          ],
+          "essays": {
+            "argumentative": [
+              "Does technology limit creativity?",
+              "Are standardized tests effective?",
+              "Can we reduce poverty in Pakistan?"
+            ],
+            "narrative": [
+              "A day at the Amusement Park.",
+              "The novel that touched me the most.",
+              "A time when you experienced something truly frightening."
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "hat": {
+    "label": "HAT — 16 years / equivalent education",
+    "sharedInfo": "100 MCQs total, 120 minutes.",
+    "streams": [
+      {
+        "code": "HAT-I",
+        "name": "Engineering & Technology, Computer Science, Mathematics, Statistics, Physics",
+        "weights": [
+          {
+            "subject": "English/Verbal Reasoning",
+            "weight": "30%"
+          },
+          {
+            "subject": "Analytical Reasoning",
+            "weight": "30%"
+          },
+          {
+            "subject": "Quantitative Reasoning",
+            "weight": "40%"
+          }
+        ]
+      },
+      {
+        "code": "HAT-II",
+        "name": "Management Sciences, Business Education",
+        "weights": [
+          {
+            "subject": "English/Verbal Reasoning",
+            "weight": "30%"
+          },
+          {
+            "subject": "Analytical Reasoning",
+            "weight": "40%"
+          },
+          {
+            "subject": "Quantitative Reasoning",
+            "weight": "30%"
+          }
+        ]
+      },
+      {
+        "code": "HAT-III",
+        "name": "Art & Humanities, Social Sciences, Psychology (Clinical & Applied), Law",
+        "weights": [
+          {
+            "subject": "English/Verbal Reasoning",
+            "weight": "40%"
+          },
+          {
+            "subject": "Analytical Reasoning",
+            "weight": "35%"
+          },
+          {
+            "subject": "Quantitative Reasoning",
+            "weight": "25%"
+          }
+        ]
+      },
+      {
+        "code": "HAT-IV",
+        "name": "Agriculture & Veterinary Sciences, Biological & Medical Sciences, Physical Sciences",
+        "weights": [
+          {
+            "subject": "English/Verbal Reasoning",
+            "weight": "40%"
+          },
+          {
+            "subject": "Analytical Reasoning",
+            "weight": "30%"
+          },
+          {
+            "subject": "Quantitative Reasoning",
+            "weight": "30%"
+          }
+        ]
+      },
+      {
+        "code": "HAT-General",
+        "name": "Religious Studies",
+        "weights": [
+          {
+            "subject": "English/Verbal Reasoning",
+            "weight": "40%"
+          },
+          {
+            "subject": "Analytical Reasoning",
+            "weight": "30%"
+          },
+          {
+            "subject": "Quantitative Reasoning",
+            "weight": "30%"
+          }
+        ]
+      }
+    ]
+  }
+}

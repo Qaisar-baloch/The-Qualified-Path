@@ -38,29 +38,161 @@ form.addEventListener("submit", async (e) => {
   }
 });
 
-// --- Dynamic USAT/HAT content (falls back to the static HTML already in the page) ---
-async function loadUsatSections() {
-  try {
-    const res = await fetch(`${API_BASE}/content/usat`);
-    if (!res.ok) return; // keep static fallback markup
-    const sections = await res.json();
-    if (!Array.isArray(sections) || sections.length === 0) return;
+// --- Test-prep syllabus tabs (USAT / HAT), loaded from a static JSON file ---
+let syllabusData = null;
+let activeTest = "usat";
+let activeStream = null;
 
-    const container = document.getElementById("usat-sections");
-    container.innerHTML = sections
-      .map(
-        (s) => `
-      <div class="card">
-        <div class="tag">${s.tag ?? "Section"}</div>
-        <h3>${s.title}</h3>
-        <p>${s.description ?? ""}</p>
-        <ul>${(s.points ?? []).map((p) => `<li>${p}</li>`).join("")}</ul>
+function renderSubjectTable(rows, columnLabel) {
+  return `
+    <table class="syllabus-table">
+      <thead><tr><th>Subject</th><th>${columnLabel}</th></tr></thead>
+      <tbody>
+        ${rows
+          .map(
+            (r) => `
+          <tr><td>${r.subject}${
+              r.breakdown
+                ? `<div class="syllabus-breakdown">${r.breakdown.join(" · ")}</div>`
+                : ""
+            }</td><td>${r.count ?? r.weight}</td></tr>`
+          )
+          .join("")}
+      </tbody>
+    </table>`;
+}
+
+function renderSamplePaper(stream) {
+  if (!stream.samplePaper) {
+    return `<div class="sample-missing">No sample paper added yet for ${stream.code} — check back soon.</div>`;
+  }
+  const sp = stream.samplePaper;
+  const sections = sp.sections
+    .map(
+      (sec) => `
+      <div class="sample-section">
+        <h5 class="sample-section-title">${sec.title}</h5>
+        ${sec.passage ? `<div class="sample-passage">${sec.passage}</div>` : ""}
+        ${sec.questions
+          .map(
+            (q) => `
+          <div class="sample-q">
+            <div class="sample-q-text"><strong>${q.num}.</strong> ${q.text}</div>
+            <div class="sample-options">
+              ${Object.entries(q.options)
+                .map(([letter, text]) => `<span class="sample-opt">${letter}. ${text}</span>`)
+                .join("")}
+            </div>
+            <button class="reveal-btn" data-answer="${q.answer}">Show answer</button>
+          </div>`
+          )
+          .join("")}
       </div>`
-      )
-      .join("");
-  } catch (err) {
-    // Backend not running yet — the static placeholder cards stay visible.
+    )
+    .join("");
+
+  const essays = sp.essays
+    ? `
+    <div class="sample-section">
+      <h5 class="sample-section-title">Essay prompts (choose one from each)</h5>
+      <div class="essay-block"><strong>Argumentative:</strong>
+        <ul>${sp.essays.argumentative.map((e) => `<li>${e}</li>`).join("")}</ul>
+      </div>
+      <div class="essay-block"><strong>Narrative:</strong>
+        <ul>${sp.essays.narrative.map((e) => `<li>${e}</li>`).join("")}</ul>
+      </div>
+    </div>`
+    : "";
+
+  return `<div class="sample-paper">${sections}${essays}</div>`;
+}
+
+function attachRevealHandlers() {
+  document.querySelectorAll(".reveal-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      btn.outerHTML = `<span class="answer-shown">Answer: ${btn.dataset.answer}</span>`;
+    });
+  });
+}
+
+function renderStreamTabs() {
+  const group = syllabusData[activeTest];
+  const container = document.getElementById("stream-tabs");
+  container.innerHTML = group.streams
+    .map(
+      (s, i) =>
+        `<button class="stream-btn${i === 0 ? " active" : ""}" data-code="${s.code}">${s.code}</button>`
+    )
+    .join("");
+
+  container.querySelectorAll(".stream-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      container.querySelectorAll(".stream-btn").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeStream = btn.dataset.code;
+      renderStreamContent();
+    });
+  });
+
+  activeStream = group.streams[0].code;
+}
+
+function renderStreamContent() {
+  const group = syllabusData[activeTest];
+  const stream = group.streams.find((s) => s.code === activeStream);
+  const content = document.getElementById("stream-content");
+
+  if (activeTest === "usat") {
+    content.innerHTML = `
+      <div class="syllabus-info">${group.sharedInfo}</div>
+      <h4 class="syllabus-stream-name">${stream.code} — ${stream.name}</h4>
+      <div class="syllabus-part-label">Part I — common to all streams</div>
+      ${renderSubjectTable(group.sharedPart1, "MCQs")}
+      <div class="syllabus-part-label">Part I — subject-specific for ${stream.code}</div>
+      ${renderSubjectTable(stream.subjects, "MCQs")}
+      <div class="syllabus-part-label">Part II — essay (same for all streams)</div>
+      ${renderSubjectTable(group.sharedPart2, "Marks")}
+      <button class="sample-toggle-btn" id="sample-toggle-btn">Show sample paper for ${stream.code}</button>
+      <div class="sample-container" id="sample-container" style="display:none;">${renderSamplePaper(stream)}</div>
+    `;
+    document.getElementById("sample-toggle-btn").addEventListener("click", (e) => {
+      const box = document.getElementById("sample-container");
+      const showing = box.style.display !== "none";
+      box.style.display = showing ? "none" : "block";
+      e.target.textContent = showing
+        ? `Show sample paper for ${stream.code}`
+        : `Hide sample paper for ${stream.code}`;
+    });
+    attachRevealHandlers();
+  } else {
+    content.innerHTML = `
+      <div class="syllabus-info">${group.sharedInfo}</div>
+      <h4 class="syllabus-stream-name">${stream.code} — ${stream.name}</h4>
+      ${renderSubjectTable(stream.weights, "Weight")}
+    `;
   }
 }
 
-loadUsatSections();
+async function loadSyllabus() {
+  try {
+    const res = await fetch("data/test-streams.json");
+    syllabusData = await res.json();
+    renderStreamTabs();
+    renderStreamContent();
+  } catch (err) {
+    document.getElementById("stream-content").innerHTML =
+      "<p>Could not load syllabus data.</p>";
+  }
+}
+
+document.getElementById("syllabus-toggle").querySelectorAll(".toggle-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".toggle-btn").forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+    activeTest = btn.dataset.test;
+    renderStreamTabs();
+    renderStreamContent();
+  });
+});
+
+loadSyllabus();

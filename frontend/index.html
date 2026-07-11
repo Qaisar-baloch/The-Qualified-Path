@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Route to Hungary — Stipendium Hungaricum Prep & Consultation</title>
+<title>The Qualified Path — Study Abroad Scholarship Prep & Consultation</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -12,9 +12,9 @@
 
 <nav>
   <div class="wrap">
-    <div class="logo">Route to <span>Hungary</span></div>
+    <div class="logo">The Qualified <span>Path</span></div>
     <ul>
-      <li><a href="#usat">USAT / HAT prep</a></li>
+      <li><a href="#usat">Test prep</a></li>
       <li><a href="#procedure">Application</a></li>
       <li><a href="#docs">Letters & CV</a></li>
       <li><a href="#about">About</a></li>
@@ -26,7 +26,7 @@
 
 <header class="hero">
   <div class="wrap">
-    <div class="eyebrow">Stipendium Hungaricum · Pakistan track</div>
+    <div class="eyebrow">The Qualified Path · Stipendium Hungaricum track</div>
     <h1>Your boarding pass to Hungary, built by someone who already flew.</h1>
     <p class="lead">Preparation, application guidance, and one-to-one review for Stipendium Hungaricum — starting with the USAT/HAT test that HEC Pakistan uses to shortlist candidates, straight from a qualified scholar's own material.</p>
 
@@ -50,7 +50,7 @@
           </div>
         </div>
         <div class="gates">
-          <div class="gate"><div class="num">Gate 1</div><div class="label">USAT / HAT prep</div></div>
+          <div class="gate"><div class="num">Gate 1</div><div class="label">Test prep</div></div>
           <div class="gate"><div class="num">Gate 2</div><div class="label">Application</div></div>
           <div class="gate"><div class="num">Gate 3</div><div class="label">Motivation letter</div></div>
           <div class="gate"><div class="num">Gate 4</div><div class="label">CV & review</div></div>
@@ -73,41 +73,16 @@
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Gate 1</div>
-      <h2>USAT / HAT test preparation</h2>
-      <p>HEC Pakistan requires a qualifying USAT or HAT score before shortlisting Stipendium Hungaricum candidates. This is where most applicants get stuck — and where the real prep material lives.</p>
+      <h2>Test preparation</h2>
+      <p>Every scholarship route has a qualifying test standing between you and a shortlist. For Stipendium Hungaricum, that's the USAT/HAT test administered by HEC Pakistan — the material below is built directly from it. As more scholarship tracks get added, their specific tests will appear here too.</p>
     </div>
-    <div class="grid3" id="usat-sections">
-      <!-- Populated from /api/content/usat by js/main.js. Static fallback below. -->
-      <div class="card">
-        <div class="tag">Section</div>
-        <h3>Verbal reasoning</h3>
-        <p>Analogies, sentence completion, reading comprehension.</p>
-        <ul>
-          <li>Practice sets [add yours]</li>
-          <li>Common trap questions</li>
-          <li>Timing strategy</li>
-        </ul>
+    <div class="syllabus-tabs">
+      <div class="syllabus-toggle" id="syllabus-toggle">
+        <button class="toggle-btn active" data-test="usat">USAT — 12-year education</button>
+        <button class="toggle-btn" data-test="hat">HAT — 16-year education</button>
       </div>
-      <div class="card">
-        <div class="tag">Section</div>
-        <h3>Quantitative reasoning</h3>
-        <p>Arithmetic, algebra, data interpretation.</p>
-        <ul>
-          <li>Formula sheet [add yours]</li>
-          <li>Speed-solving tricks</li>
-          <li>Past-paper patterns</li>
-        </ul>
-      </div>
-      <div class="card">
-        <div class="tag">Section</div>
-        <h3>Analytical reasoning</h3>
-        <p>Logic puzzles, arrangement and grouping questions.</p>
-        <ul>
-          <li>Step-by-step method</li>
-          <li>Diagramming approach</li>
-          <li>Timed drills</li>
-        </ul>
-      </div>
+      <div class="stream-tabs" id="stream-tabs"></div>
+      <div class="stream-content" id="stream-content">Loading syllabus…</div>
     </div>
 
     <div class="resource-library">
@@ -176,11 +151,13 @@
         <div class="step">Step 1</div>
         <h3>HEC eligibility check & USAT/HAT qualification</h3>
         <p>Confirm CGPA and test-score thresholds before you begin.</p>
+        <p class="tl-link"><a href="https://scholarship.hec.gov.pk/" target="_blank" rel="noopener">HEC Scholarship Portal →</a></p>
       </div>
       <div class="tl-item">
         <div class="step">Step 2</div>
         <h3>Stipendium Hungaricum online application</h3>
-        <p>University and programme selection, document upload, admission portal.</p>
+        <p>University and programme selection, document upload, admission portal — run by Tempus Public Foundation, Hungary's scholarship-administering body.</p>
+        <p class="tl-link"><a href="https://stipendiumhungaricum.hu/apply/" target="_blank" rel="noopener">Stipendium Hungaricum — Apply →</a></p>
       </div>
       <div class="tl-item">
         <div class="step">Step 3</div>
@@ -310,7 +287,7 @@
 </section>
 
 <footer>
-  <div class="wrap">Route to Hungary — built for Stipendium Hungaricum candidates. More scholarships coming soon.</div>
+  <div class="wrap">The Qualified Path — built for Stipendium Hungaricum candidates first. More scholarships and destinations coming soon.</div>
 </footer>
 
 <script src="js/main.js"></script>

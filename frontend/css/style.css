@@ -106,6 +106,60 @@ section{padding:72px 0;border-bottom:1px solid var(--line);}
 .card ul{margin-top:12px;padding-left:18px;font-size:14px;color:#4B4B42;}
 .card ul li{margin-bottom:5px;}
 
+.syllabus-tabs{margin-top:8px;}
+.syllabus-toggle{display:flex;gap:8px;margin-bottom:18px;}
+.toggle-btn{
+  padding:9px 18px;border:1px solid var(--line);background:var(--card);border-radius:20px;
+  font-size:13.5px;font-family:'IBM Plex Sans',sans-serif;cursor:pointer;color:var(--charcoal);
+  transition:background .15s ease,color .15s ease;
+}
+.toggle-btn.active{background:var(--ink);color:var(--parchment);border-color:var(--ink);}
+.stream-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px;}
+.stream-btn{
+  padding:7px 14px;border:1px solid var(--line);background:var(--parchment-2);border-radius:4px;
+  font-size:13px;font-family:'IBM Plex Sans',sans-serif;cursor:pointer;color:var(--charcoal);
+  transition:background .15s ease,color .15s ease;
+}
+.stream-btn.active{background:var(--gold);color:#fff;border-color:var(--gold-dark);}
+.stream-content{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:26px 28px;}
+.syllabus-info{font-size:13px;color:var(--gold-dark);font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px;}
+.syllabus-stream-name{font-size:19px;font-weight:500;color:var(--ink);margin-bottom:18px;}
+.syllabus-part-label{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:#6b6b60;margin:18px 0 8px;}
+.syllabus-part-label:first-of-type{margin-top:0;}
+.syllabus-table{width:100%;border-collapse:collapse;margin-bottom:4px;}
+.syllabus-table th{
+  text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:#6b6b60;
+  padding:6px 8px;border-bottom:1px solid var(--line);
+}
+.syllabus-table td{padding:8px;font-size:14px;border-bottom:1px solid var(--parchment-2);}
+.syllabus-breakdown{font-size:12px;color:#8a8a7a;margin-top:3px;}
+.syllabus-table tr:last-child td{border-bottom:none;}
+
+.sample-toggle-btn{
+  margin-top:18px;background:var(--ink);color:var(--parchment);border:none;padding:10px 18px;
+  border-radius:4px;font-size:13.5px;cursor:pointer;font-family:'IBM Plex Sans',sans-serif;
+  transition:background .15s ease;
+}
+.sample-toggle-btn:hover{background:var(--ink-light);}
+.sample-container{margin-top:22px;border-top:1px solid var(--line);padding-top:22px;}
+.sample-missing{font-size:14px;color:#8a8a7a;font-style:italic;}
+.sample-section{margin-bottom:26px;}
+.sample-section:last-child{margin-bottom:0;}
+.sample-section-title{font-size:15px;color:var(--gold-dark);margin-bottom:12px;font-weight:600;}
+.sample-passage{background:var(--parchment-2);border-radius:4px;padding:14px 16px;font-size:13.5px;color:#4B4B42;margin-bottom:16px;line-height:1.65;}
+.sample-q{margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid var(--parchment-2);}
+.sample-q:last-child{border-bottom:none;}
+.sample-q-text{font-size:14.5px;margin-bottom:8px;}
+.sample-options{display:flex;flex-direction:column;gap:3px;font-size:13.5px;color:#4B4B42;margin-bottom:8px;}
+.reveal-btn{
+  background:none;border:1px solid var(--gold);color:var(--gold-dark);padding:4px 12px;
+  border-radius:12px;font-size:12px;cursor:pointer;font-family:'IBM Plex Sans',sans-serif;
+}
+.reveal-btn:hover{background:var(--gold);color:#fff;}
+.answer-shown{font-size:12.5px;color:var(--ink);font-weight:600;background:var(--parchment-2);padding:4px 10px;border-radius:12px;}
+.essay-block{font-size:14px;margin-bottom:10px;}
+.essay-block ul{margin:6px 0 0 18px;color:#4B4B42;}
+
 .resource-library{margin-top:44px;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:28px 32px;}
 .lib-heading{font-size:18px;font-weight:500;color:var(--ink);margin-bottom:18px;}
 .lib-group{margin-bottom:22px;}
@@ -161,6 +215,9 @@ nav a{transition:opacity .15s ease;}
 .tl-item .step{font-size:11px;color:var(--gold-dark);text-transform:uppercase;letter-spacing:1px;font-weight:600;}
 .tl-item h3{font-size:17px;font-weight:500;color:var(--ink);margin:4px 0 6px;}
 .tl-item p{font-size:14.5px;color:#4B4B42;max-width:560px;}
+.tl-link{margin-top:6px;}
+.tl-link a{color:var(--gold-dark);font-size:13.5px;text-decoration:none;font-weight:600;}
+.tl-link a:hover{text-decoration:underline;}
 
 /* CONSULTATION */
 .consult{background:var(--ink);color:var(--parchment);border-radius:8px;padding:44px;margin-top:0;}
