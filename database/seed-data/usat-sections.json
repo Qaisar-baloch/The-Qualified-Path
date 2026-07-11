@@ -1,32 +1,44 @@
 [
   {
+    "tag": "Test format",
+    "title": "How the test is structured",
+    "description": "Official HEC Scholarship Aptitude Test format, confirmed from the HEC sample paper.",
+    "points": [
+      "120 minutes total, 100 questions",
+      "Verbal Reasoning — 50% (50 questions)",
+      "Quantitative Reasoning — 30% (30 questions)",
+      "Analytical Reasoning — 20% (20 questions)"
+    ]
+  },
+  {
     "tag": "Section",
     "title": "Verbal reasoning",
-    "description": "Analogies, sentence completion, reading comprehension.",
+    "description": "50 questions — synonyms/antonyms, sentence completion, and vocabulary-in-context.",
     "points": [
-      "Practice sets [add yours]",
-      "Common trap questions",
-      "Timing strategy"
+      "e.g. 'Choose the word similar in meaning to DEBACLE' → Fiasco",
+      "Fill-in-the-blank definition questions (e.g. 'Perfunctory means ___')",
+      "Focus on precise vocabulary — memorize meaning, not just synonyms"
     ]
   },
   {
     "tag": "Section",
     "title": "Quantitative reasoning",
-    "description": "Arithmetic, algebra, data interpretation.",
+    "description": "30 questions — algebraic manipulation, arithmetic, and applied word problems.",
     "points": [
-      "Formula sheet [add yours]",
-      "Speed-solving tricks",
-      "Past-paper patterns"
+      "Algebraic simplification (e.g. expressing a²−b² forms)",
+      "Time-pressure friendly: practice mental shortcuts over long calculation",
+      "Past papers repeat question *styles* even when numbers change"
     ]
   },
   {
     "tag": "Section",
     "title": "Analytical reasoning",
-    "description": "Logic puzzles, arrangement and grouping questions.",
+    "description": "20 questions — logic puzzles with ordering/sequencing constraints.",
     "points": [
-      "Step-by-step method",
-      "Diagramming approach",
-      "Timed drills"
+      "Classic 'schedule 6 activities under 5 conditions' style puzzles",
+      "Draw the sequence out — don't try to hold constraints in your head",
+      "Practice eliminating options against each condition one at a time"
     ]
   }
 ]
+
