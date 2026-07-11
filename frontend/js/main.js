@@ -1,6 +1,6 @@
 // Point this at your backend once it's deployed.
 // While developing locally with `npm run dev` in /backend, this default is correct.
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = "/.netlify/functions";
 
 // --- Contact / consultation request form ---
 const form = document.getElementById("contact-form");
