@@ -1,0 +1,32 @@
+[
+  {
+    "tag": "Section",
+    "title": "Verbal reasoning",
+    "description": "Analogies, sentence completion, reading comprehension.",
+    "points": [
+      "Practice sets [add yours]",
+      "Common trap questions",
+      "Timing strategy"
+    ]
+  },
+  {
+    "tag": "Section",
+    "title": "Quantitative reasoning",
+    "description": "Arithmetic, algebra, data interpretation.",
+    "points": [
+      "Formula sheet [add yours]",
+      "Speed-solving tricks",
+      "Past-paper patterns"
+    ]
+  },
+  {
+    "tag": "Section",
+    "title": "Analytical reasoning",
+    "description": "Logic puzzles, arrangement and grouping questions.",
+    "points": [
+      "Step-by-step method",
+      "Diagramming approach",
+      "Timed drills"
+    ]
+  }
+]
