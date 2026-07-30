@@ -263,6 +263,7 @@ nav a{transition:opacity .15s ease;}
 .consult-list{list-style:none;}
 .consult-list li{padding:10px 0;border-bottom:1px solid rgba(247,242,231,.15);font-size:14.5px;display:flex;justify-content:space-between;}
 .consult-list li span.price{color:var(--gold);font-family:'Fraunces',serif;}
+.payment-note{margin-top:20px;font-size:13px;color:#D9E3DB;line-height:1.6;}
 form{background:var(--parchment);color:var(--charcoal);border-radius:6px;padding:24px;}
 form label{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:#6b6b60;display:block;margin-bottom:5px;margin-top:14px;}
 form label:first-child{margin-top:0;}
@@ -276,6 +277,25 @@ form button{
 form .status{margin-top:12px;font-size:13px;display:none;}
 form .status.ok{color:#2E5A44;display:block;}
 form .status.err{color:#8A2A2A;display:block;}
+
+.faq-list{border-top:1px solid var(--line);}
+.faq-item{border-bottom:1px solid var(--line);}
+.faq-question{
+  width:100%;background:none;border:none;text-align:left;padding:20px 4px;
+  font-family:'Fraunces',serif;font-size:16px;color:var(--ink);cursor:pointer;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.faq-toggle{
+  flex-shrink:0;width:26px;height:26px;border:1px solid var(--gold);border-radius:50%;
+  color:var(--gold-dark);display:flex;align-items:center;justify-content:center;font-size:16px;
+  transition:transform .15s ease;
+}
+.faq-item.open .faq-toggle{transform:rotate(45deg);}
+.faq-answer{
+  max-height:0;overflow:hidden;transition:max-height .2s ease, padding .2s ease;
+  font-size:14.5px;color:#4B4B42;padding:0 4px;
+}
+.faq-item.open .faq-answer{max-height:300px;padding:0 4px 20px;}
 
 footer{padding:40px 0;text-align:center;font-size:13px;color:#7a7a6d;}
 

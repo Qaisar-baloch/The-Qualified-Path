@@ -329,3 +329,10 @@ document.getElementById("syllabus-toggle").querySelectorAll(".toggle-btn").forEa
 });
 
 loadSyllabus();
+
+// --- FAQ accordion ---
+document.querySelectorAll(".faq-question").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    btn.parentElement.classList.toggle("open");
+  });
+});
