@@ -2,7 +2,7 @@
 
 A scholarship prep, guidance, and consultation site for Pakistani students applying through HEC — starting with Stipendium Hungaricum, expanding to other HEC-facilitated scholarships over time.
 
-**Live:** https://the-qualified-path.netlify.app *(update once renamed)*
+**Live:** https://the-qualified-path.netlify.app
 
 ## What's here
 
