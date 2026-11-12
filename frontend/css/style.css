@@ -308,3 +308,10 @@ footer{padding:40px 0;text-align:center;font-size:13px;color:#7a7a6d;}
   .hero h1{font-size:32px;}
   nav ul{display:none;}
 }
+
+.connect-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;}
+.connect-btn{display:inline-block;padding:9px 16px;border:1px solid var(--gold);border-radius:999px;color:var(--ink);font-size:13.5px;text-decoration:none;background:var(--card);transition:background .2s,color .2s;}
+.connect-btn:hover{background:var(--ink);color:var(--parchment);border-color:var(--ink);}
+.footer-links{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:14px;}
+.footer-links a{color:var(--ink-light);text-decoration:none;font-weight:500;}
+.footer-links a:hover{color:var(--gold-dark);text-decoration:underline;}

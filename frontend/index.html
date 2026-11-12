@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Qualified Path — Study Abroad Scholarship Prep & Consultation</title>
+<title>The Qualified Path — Free Study Abroad Scholarship Prep & Guidance</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -19,7 +19,7 @@
       <li><a href="#opportunities">Scholarships offered</a></li>
       <li><a href="#procedure">Application</a></li>
       <li><a href="#docs">Document prep</a></li>
-      <li><a href="#consult">Consultation</a></li>
+      <li><a href="#consult">Ask &amp; Connect</a></li>
       <li><a href="#faq">FAQ</a></li>
       <li><a href="#about">About</a></li>
     </ul>
@@ -30,12 +30,12 @@
   <div class="wrap">
     <div class="eyebrow">The Qualified Path · Scholarship prep for Pakistani students</div>
     <h1>Your boarding pass to studying abroad, built by someone who already flew.</h1>
-    <p class="lead">Preparation, application guidance, and one-to-one review for scholarships that use HEC Pakistan's USAT/HAT test to shortlist candidates — starting with Stipendium Hungaricum, our most fully-built track, straight from a qualified scholar's own material.</p>
+    <p class="lead">Free preparation material, application guidance and answers to your questions for HEC-facilitated scholarships — built from a qualified scholar's own experience and material.</p>
 
     <div class="trust-row">
       <div class="trust-item"><span class="trust-dot"></span>Qualified international scholar</div>
       <div class="trust-item"><span class="trust-dot"></span>Real HEC/USAT past papers</div>
-      <div class="trust-item"><span class="trust-dot"></span>Personal 1-on-1 review</div>
+      <div class="trust-item"><span class="trust-dot"></span>Free to use</div>
     </div>
 
     <div class="ticket">
@@ -170,6 +170,7 @@
       <div class="lib-group">
         <div class="lib-group-title">Community</div>
         <a class="lib-item" href="https://chat.whatsapp.com/BaEWNT0iYfBLUiqO9A0T1S" target="_blank" rel="noopener"><span>SHS Aspirants — WhatsApp Group</span><span class="lib-arrow">↗</span></a>
+        <a class="lib-item" href="https://whatsapp.com/channel/0029VbECjVC8vd1JKOY9tQ1p" target="_blank" rel="noopener"><span>The Qualified Path — WhatsApp Channel</span><span class="lib-arrow">↗</span></a>
         <a class="lib-item" href="https://whatsapp.com/channel/0029Vb7XTqWAjPXKOmFn6s1H" target="_blank" rel="noopener"><span>SHS Aspirants — WhatsApp Channel</span><span class="lib-arrow">↗</span></a>
       </div>
 
@@ -303,34 +304,36 @@
 <section id="consult">
   <div class="wrap">
     <div class="consult">
-      <div class="eyebrow" style="color:var(--gold);">Personal review</div>
-      <h2>Get your documents reviewed directly</h2>
-      <p>One-to-one feedback on your USAT/HAT prep, motivation letter, or CV — from someone who has already qualified for Stipendium Hungaricum.</p>
+      <div class="eyebrow" style="color:var(--gold);">Ask &amp; Connect</div>
+      <h2>Have a question? Ask it here — it's free</h2>
+      <p>Stuck on test prep, an application step or a document? Send your question and I'll reply by email. This service is free for now.</p>
       <div class="consult-grid">
         <div>
           <ul class="consult-list">
-            <li>USAT/HAT strategy session <span class="price">Rs. 500 / hr</span></li>
-            <li>Motivation letter review <span class="price">Rs. 500</span></li>
-            <li>CV review & rebuild <span class="price">Rs. 500</span></li>
-            <li>Full application package <span class="price">Rs. 5,000</span></li>
+            <li>Test preparation questions <span class="price">Free</span></li>
+            <li>Application and procedure guidance <span class="price">Free</span></li>
+            <li>Document and CV questions <span class="price">Free</span></li>
+            <li>Feedback or a broken link to report <span class="price">Free</span></li>
           </ul>
-          <p class="payment-note">Document reviews include an AI/plagiarism check. Payments accepted via JazzCash, Easypaisa, or bank transfer — details shared after booking.</p>
+          <p class="payment-note">Replies come by email, so please double-check your address. Include your target scholarship and what you've done so far to get a more useful answer.</p>
         </div>
         <form id="contact-form">
           <label for="name">Name</label>
-          <input id="name" name="name" type="text" placeholder="Your full name" required>
+          <input id="name" name="name" type="text" placeholder="Your full name" required maxlength="100">
           <label for="email">Email</label>
-          <input id="email" name="email" type="email" placeholder="you@email.com" required>
-          <label for="service">Service</label>
+          <input id="email" name="email" type="email" placeholder="you@email.com" required maxlength="150">
+          <label for="service">Topic</label>
           <select id="service" name="service">
-            <option>USAT/HAT strategy session</option>
-            <option>Motivation letter review</option>
-            <option>CV review & rebuild</option>
-            <option>Full application package</option>
+            <option>General question</option>
+            <option>Test preparation</option>
+            <option>Application guidance</option>
+            <option>Document / CV help</option>
+            <option>Feedback or report a problem</option>
           </select>
-          <label for="msg">Tell me about your goal</label>
-          <textarea id="msg" name="message" rows="3" placeholder="Target intake, current status, questions"></textarea>
-          <button type="submit">Request a review</button>
+          <label for="msg">Your question</label>
+          <textarea id="msg" name="message" rows="4" placeholder="Which scholarship, where you are stuck, any deadline" required maxlength="2000"></textarea>
+          <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;height:0;">
+          <button type="submit">Send question</button>
           <div class="status" id="form-status"></div>
         </form>
       </div>
@@ -343,16 +346,16 @@
     <div class="section-head">
       <div class="eyebrow">Before you ask</div>
       <h2>Frequently asked questions</h2>
-      <p>The questions that come up most before someone books a review.</p>
+      <p>The questions that come up most.</p>
     </div>
     <div class="faq-list" id="faq-list">
       <div class="faq-item">
-        <button class="faq-question">How does payment work?<span class="faq-toggle">+</span></button>
-        <div class="faq-answer">Submit the consultation form with your chosen service. Once I confirm your session by email, you'll get payment details for JazzCash, Easypaisa, or bank transfer — pay directly, no online gateway needed.</div>
+        <button class="faq-question">Is this site really free?<span class="faq-toggle">+</span></button>
+        <div class="faq-answer">Yes. All preparation material, guides and question replies are free for now. Paid services may be added later, and they would always be clearly labelled.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-question">How fast is the turnaround on a review?<span class="faq-toggle">+</span></button>
-        <div class="faq-answer">[Add your typical turnaround time here — e.g. "2-3 business days after payment is confirmed."]</div>
+        <button class="faq-question">How soon will I get a reply?<span class="faq-toggle">+</span></button>
+        <div class="faq-answer">Usually within a few days, by email. Check your spam folder if you don't see it. Questions sent close to a deadline may take longer, so ask early.</div>
       </div>
       <div class="faq-item">
         <button class="faq-question">Is the HEC Opportunities Abroad portal official?<span class="faq-toggle">+</span></button>
@@ -363,8 +366,8 @@
         <div class="faq-answer">For HEC-facilitated scholarships like these, yes — a qualifying USAT or HAT score is generally required before HEC will shortlist and nominate you. See the Test Prep section for the full syllabus and sample papers.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-question">Can I get help with scholarships other than Stipendium Hungaricum?<span class="faq-toggle">+</span></button>
-        <div class="faq-answer">Consultation currently focuses on Stipendium Hungaricum, since that's the fully-built track. Other HEC-facilitated scholarships are listed under Scholarships Offered, with more application guidance being added over time.</div>
+        <button class="faq-question">Can I ask about scholarships other than Stipendium Hungaricum?<span class="faq-toggle">+</span></button>
+        <div class="faq-answer">Yes, you can ask about any scholarship listed under Scholarships Offered. Stipendium Hungaricum has the most detailed guidance so far, and more is being added over time.</div>
       </div>
     </div>
   </div>
@@ -394,6 +397,12 @@
           for the exam. So I decided to put everything I learned into one platform, so the next person doesn't
           have to start from scratch the way I did — and can put their time and effort where it actually counts.
         </p>
+        <div class="connect-row">
+          <a class="connect-btn" href="https://www.linkedin.com/in/qaisar-khan-320a22421" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="connect-btn" href="https://qaisar-portfolio-rose.vercel.app/" target="_blank" rel="noopener">Portfolio</a>
+          <a class="connect-btn" href="https://github.com/Qaisar-baloch" target="_blank" rel="noopener">GitHub</a>
+          <a class="connect-btn" href="https://whatsapp.com/channel/0029VbECjVC8vd1JKOY9tQ1p" target="_blank" rel="noopener">WhatsApp Channel</a>
+        </div>
         <div class="about-stats">
           <div class="stat">
             <div class="stat-num">Scholar</div>
@@ -415,7 +424,10 @@
 </section>
 
 <footer>
-  <div class="wrap">The Qualified Path — developed by Qaisar Baloch. More scholarships and destinations coming soon.</div>
+  <div class="wrap">
+    <div class="footer-links"><a href="https://www.linkedin.com/in/qaisar-khan-320a22421" target="_blank" rel="noopener">LinkedIn</a><a href="https://qaisar-portfolio-rose.vercel.app/" target="_blank" rel="noopener">Portfolio</a><a href="https://github.com/Qaisar-baloch" target="_blank" rel="noopener">GitHub</a><a href="https://whatsapp.com/channel/0029VbECjVC8vd1JKOY9tQ1p" target="_blank" rel="noopener">WhatsApp Channel</a></div>
+    The Qualified Path — developed by Qaisar Baloch. More scholarships and destinations coming soon.
+  </div>
 </footer>
 
 <script src="js/main.js"></script>
