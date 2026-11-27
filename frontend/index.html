@@ -15,6 +15,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/journey.css">
 </head>
 <body>
 
@@ -31,6 +32,7 @@
       <li><a href="#faq">FAQ</a></li>
       <li><a href="#about">About</a></li>
     </ul>
+    <button class="path-button" type="button" data-path-open="dashboard">My path</button>
   </div>
 </nav>
 
@@ -40,6 +42,10 @@
     <h1>Your boarding pass to studying abroad, built by someone who already flew.</h1>
     <p class="lead">Free preparation material, application guidance and answers to your questions for HEC-facilitated scholarships — built from a qualified scholar's own experience and material.</p>
 
+    <div class="path-actions">
+      <a class="path-button" href="#roadmap">Explore the roadmap</a>
+      <button class="path-button" type="button" data-path-open="search">Find a resource</button>
+    </div>
     <div class="trust-row">
       <div class="trust-item"><span class="trust-dot"></span>Qualified international scholar</div>
       <div class="trust-item"><span class="trust-dot"></span>Real HEC/USAT past papers</div>
@@ -60,11 +66,11 @@
           </div>
         </div>
         <div class="gates">
-          <div class="gate"><div class="num">Gate 1</div><div class="label">Overview</div></div>
-          <div class="gate"><div class="num">Gate 2</div><div class="label">Test prep</div></div>
-          <div class="gate"><div class="num">Gate 3</div><div class="label">Scholarships</div></div>
-          <div class="gate"><div class="num">Gate 4</div><div class="label">Application</div></div>
-          <div class="gate"><div class="num">Gate 5</div><div class="label">Documents</div></div>
+          <div class="gate"><div class="num">Gate 1</div><a class="label" href="#roadmap">Overview</a></div>
+          <div class="gate"><div class="num">Gate 2</div><a class="label" href="#usat">Test prep</a></div>
+          <div class="gate"><div class="num">Gate 3</div><a class="label" href="#opportunities">Scholarships</a></div>
+          <div class="gate"><div class="num">Gate 4</div><a class="label" href="#procedure">Application</a></div>
+          <div class="gate"><div class="num">Gate 5</div><a class="label" href="#docs">Documents</a></div>
         </div>
       </div>
       <div class="perforation"></div>
@@ -438,6 +444,28 @@
   </div>
 </footer>
 
+<dialog id="path-search" class="path-dialog" aria-labelledby="path-search-title">
+  <div class="path-dialog-head"><h2 id="path-search-title">Find a resource</h2><form method="dialog"><button class="path-button">Close</button></form></div>
+  <label for="path-query">Search by topic or resource name</label>
+  <input id="path-query" type="search" placeholder="USAT, past papers, motivation letter">
+  <p data-count role="status"></p>
+  <ul class="path-results"></ul>
+</dialog>
+<dialog id="path-dashboard" class="path-dialog" aria-labelledby="path-dashboard-title">
+  <div class="path-dialog-head"><h2 id="path-dashboard-title">My scholarship path</h2><form method="dialog"><button class="path-button">Close</button></form></div>
+  <p data-summary role="status"></p>
+  <progress max="5" value="0" aria-label="Milestone progress"></progress>
+  <ul class="path-milestones"></ul>
+  <p data-storage>Progress is saved in this browser.</p>
+  <button class="path-button" type="button" data-path-open="login">Student account</button>
+</dialog>
+<dialog id="path-login" class="path-dialog" aria-labelledby="path-login-title">
+  <div class="path-dialog-head"><h2 id="path-login-title">Student account</h2><form method="dialog"><button class="path-button">Close</button></form></div>
+  <div class="path-login-art"><h3>Pick up where you left off.</h3><p>Your scholarship roadmap, one milestone at a time.</p></div>
+  <p>Account sign-in is unavailable on this preview. You can track milestones in this browser.</p>
+  <button class="path-button" type="button" data-path-open="dashboard">Open my path</button>
+</dialog>
 <script src="js/main.js"></script>
+<script src="js/journey.js"></script>
 </body>
 </html>
