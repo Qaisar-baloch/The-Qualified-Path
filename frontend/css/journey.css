@@ -1,0 +1,68 @@
+:root {
+  --parchment: #f0f6f5;
+  --parchment-2: #e0eeeb;
+  --ink: #103c39;
+  --ink-light: #1d6358;
+  --gold: #e2bf71;
+  --gold-dark: #775820;
+  --line: #c3d8d3;
+  --card: #fff;
+}
+html { scroll-behavior: smooth; scroll-padding-top: 8rem; }
+nav { background: #f0f6f5f5; backdrop-filter: blur(12px); }
+nav .wrap { height: auto; min-height: 64px; gap: 14px; flex-wrap: wrap; padding-block: 10px; }
+nav ul { gap: 15px; flex-wrap: wrap; }
+nav ul li { display: block; }
+.hero { position: relative; isolation: isolate; overflow: hidden; background: #071f23; color: #f2fbf9; }
+.hero::before, .path-login-art::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(ellipse at 80% 12%, #1a665c 0%, transparent 54%),
+    repeating-radial-gradient(ellipse at 85% 19%, transparent 0 29px, #75cdb932 30px 31px, transparent 32px 58px);
+  animation: path-drift 14s ease-in-out infinite alternate;
+}
+@keyframes path-drift { to { transform: translate(-2%, 4%) scale(1.1); } }
+.hero h1 { color: #f2fbf9; font-size: clamp(2.35rem, 6vw, 4.6rem); }
+.hero .eyebrow, .hero .trust-item { color: #e2bf71; }
+.hero p.lead { color: #d3e8e3; }
+.hero .ticket { color: var(--charcoal); border-radius: 18px; }
+.hero .perforation::before, .hero .perforation::after { background: #0d3638; }
+.path-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+.path-button {
+  display: inline-flex; align-items: center; justify-content: center; font: inherit; font-weight: 600;
+  border: 1px solid transparent; border-radius: 10px; padding: 9px 15px; cursor: pointer;
+  background: var(--ink); color: white; text-decoration: none; transition: transform .2s, background .2s;
+}
+.path-button:hover { transform: translateY(-2px); }
+.hero .path-button { background: #e2bf71; color: #132f30; }
+.hero .path-button + .path-button { background: #153f42; color: white; border-color: #6ba69e; }
+.gate .label { display: inline-block; text-underline-offset: 4px; }
+.card, .lib-item { border-radius: 14px; }
+.card { transition: box-shadow .25s; }
+.card:hover { box-shadow: 0 12px 32px #0b3d3214; }
+.path-dialog {
+  width: min(46rem, calc(100vw - 1.5rem)); max-height: 90dvh; margin: auto;
+  padding: clamp(1rem, 3vw, 2rem); color: var(--charcoal); background: var(--card);
+  border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 24px 90px #05171655;
+}
+.path-dialog[open] { animation: path-enter .24s ease-out; }
+.path-dialog::backdrop { background: #061d24ae; backdrop-filter: blur(5px); }
+@keyframes path-enter { from { opacity: 0; transform: translateY(12px) scale(.98); } }
+.path-dialog-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 15px; }
+.path-dialog h2 { color: var(--ink); }
+.path-dialog input[type=search] { display: block; width: 100%; padding: .75rem; margin: 8px 0; font: inherit; border: 1px solid var(--line); border-radius: 8px; }
+.path-results { list-style: none; }
+.path-results a { display: block; padding: .55rem 0; border-bottom: 1px solid var(--line); }
+.path-milestones { list-style: none; margin: 12px 0; }
+.path-milestones li { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--line); }
+.path-milestones input { accent-color: var(--ink); margin-right: 8px; }
+.path-dialog progress { width: 100%; accent-color: var(--ink); }
+.path-login-art { position: relative; isolation: isolate; overflow: hidden; border-radius: 12px; padding: 25px; margin-bottom: 15px; background: #071f23; color: white; }
+.path-login-art h3 { font-size: 2rem; }
+.path-dialog a:focus-visible, .path-button:focus-visible, .path-dialog input:focus-visible { outline: 3px solid #866024; outline-offset: 3px; }
+@media (max-width: 700px) { nav ul { gap: 8px 14px; } .hero .gates { gap: 8px; flex-wrap: wrap; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .hero::before, .path-login-art::before, .path-dialog[open] { animation: none; }
+  .path-button, .card { transition: none; }
+  .path-button:hover { transform: none; }
+}
